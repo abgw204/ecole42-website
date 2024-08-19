@@ -8,9 +8,8 @@
 body {
     font-family:"Josefin Sans";
     font-weight: 600;
-    color: rgb(0, 0, 0);
     font-size: 140%;
-    background-color: #001213;
+    background-color: #ffffff;
 }
 :root {
     --black: #000000;
