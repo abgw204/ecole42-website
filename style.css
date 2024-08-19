@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family:"Josefin Sans";
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 140%;
+    background-color: #001213;
+}
+:root {
+    --black: #000000;
+    --42blue: #01babc;
+    --white: #ffffff;
+    --degrade-btn: linear-gradient(#01babc, #008285);
+}
+.backgorund-black {
+    background: var(--black);
+}
+/*classes reutilizáveis*/
+.container {
+    max-width: 1400px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.btn-gradient {
+    padding: 10px 25px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    background-image: var(--degrade-btn);
+}
+/*classes do site*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.logo a {
+    font-size: 35px;
+    color: var(--white);
+}
+.ul {
+    display: flex;
+    align-items: center;
+}
+.ul li {
+    margin: 0 35px;
+    font-size: 17px;
+}
+.ul li a {
+    color: var(--white);
+}
