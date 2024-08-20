@@ -35,7 +35,7 @@ body {
     background: var(--black);
 }
 /*classes reutilizáveis*/
-.container {
+.content {
     max-width: 1400px;
     padding: 0 5%;
     margin: 0 auto;
@@ -74,7 +74,7 @@ nav {
     color: var(--white);
 }
 /*main*/
-main .container {
+main .content {
     color: var(--white);
     display: flex;
     justify-content: space-between;
