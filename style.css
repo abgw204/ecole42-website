@@ -27,9 +27,10 @@ body {
 }
 :root {
     --black: #000000;
-    --42blue: #01babc;
+    --42blue: #04809f;
+    --42blue1: #01babc;
     --white: #ffffff;
-    --degrade-btn: linear-gradient(#01babc, #008285);
+    --degrade-btn: linear-gradient(#008b8d, #01babc);
 }
 .backgorund-black {
     background: var(--black);
@@ -46,8 +47,8 @@ body {
     color: var(--white);
     border: none;
     cursor: pointer;
-    background-image: var(--degrade-btn);
-    font-size: 15px;
+    background-color: var(--42blue);
+    font-size: 17px;
 }
 /*classes do site*/
 nav {
@@ -78,11 +79,13 @@ main .content {
     color: var(--white);
     display: flex;
     justify-content: space-between;
-    padding: 17% 10%;
+    padding: 13% 14%;
     margin: 0 auto;
 }
 .main-txt {
     color: #ffffff;
+    margin-top: -20px;
+    margin-left: 30px;
 }
 .main-txt h1 {
     font-size: 60px;
@@ -91,4 +94,5 @@ main .content {
 .main-txt h2 {
     font-size: 30px;
     font-weight: 400;
+    margin-top: 13px;
 }
