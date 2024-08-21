@@ -27,13 +27,12 @@ body {
 }
 :root {
     --black: #000000;
-    --42blue: #04809f;
+    --42blue: rgb(4, 128, 159);
     --42blue1: #01babc;
     --white: #ffffff;
-    --degrade-btn: linear-gradient(#008b8d, #01babc);
 }
 .backgorund-black {
-    background: var(--black);
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
 }
 /*classes reutilizáveis*/
 .content {
@@ -56,12 +55,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 25px 0px;
-}
-.logo a {
-    font-size: 55px;
-    font-weight: 600;
-    color: var(--white);
-    padding: 0 60px;
 }
 .ul {
     display: flex;
@@ -95,4 +88,10 @@ main .content {
     font-size: 30px;
     font-weight: 400;
     margin-top: 13px;
+}
+.main-txt hr{
+    width: 2px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: -20px;
 }
