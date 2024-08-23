@@ -26,6 +26,7 @@ body {
     padding: 0;
     z-index: 0;
 }
+/* colors */
 :root {
     --black: #000000;
     --42blue: rgb(4, 128, 159);
