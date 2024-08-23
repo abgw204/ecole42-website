@@ -24,6 +24,7 @@ body {
     background-position: 0 10%;
     margin: 0;
     padding: 0;
+    z-index: 0;
 }
 :root {
     --black: #000000;
@@ -39,7 +40,6 @@ body {
     max-width: 1400px;
     padding: 0 5%;
     margin: 0 auto;
-    z-index: 1;
 }
 .btn-gradient {
     padding: 10px 25px;
@@ -123,5 +123,11 @@ main .content {
     }
     .ul.active {
         left: 0;
+    }
+    main .content {
+        flex-direction: column;
+    }
+    body {
+        background-position: center;
     }
 }
